@@ -1,0 +1,113 @@
+{
+  "theme": "dark",
+  "archetype": "Archetype 1 (Organic & Earthy) & Archetype 5 (Jewel & Luxury)",
+  "vibe": "Minimal, bold, edgy yet premium, artistic, hygienic, professional, and trustworthy.",
+  "colors": {
+    "primary": "#556B2F",
+    "primary_hover": "#6b873b",
+    "secondary_dark": "#0A0A0A",
+    "secondary_light": "#F5F5DC",
+    "surface": "#121212",
+    "surface_hover": "#1a1a1a",
+    "text_primary": "#F5F5DC",
+    "text_secondary": "rgba(245, 245, 220, 0.7)",
+    "border_light": "rgba(85, 107, 47, 0.3)",
+    "border_strong": "#556B2F"
+  },
+  "typography": {
+    "heading_font": "Clash Display, Outfit, sans-serif",
+    "body_font": "Satoshi, DM Sans, sans-serif",
+    "h1": "text-5xl sm:text-6xl+ tracking-tighter font-medium",
+    "h2": "text-3xl sm:text-4xl lg:text-5xl tracking-tight font-medium",
+    "h3": "text-2xl sm:text-3xl tracking-tight font-normal",
+    "body": "text-base leading-relaxed font-light",
+    "overline": "text-xs tracking-[0.2em] uppercase font-bold text-[#556B2F]"
+  },
+  "layout_patterns": {
+    "container_spacing": "py-24 md:py-32 px-4 md:px-8 max-w-7xl mx-auto",
+    "card_padding": "p-8 md:p-12",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-12 gap-8",
+    "border_style": "1px solid border-[#556B2F]/30",
+    "surface_strategy": "Grid Borders and Glassmorphism (for sticky nav and popups). Minimal shadows, rely on high-contrast 1px strokes."
+  },
+  "components_and_interactions": {
+    "hero_carousel": {
+      "style": "Full width, max height 100vh. Dark overlay (bg-black/50) over images to maintain text contrast.",
+      "animation": "Fade transitions for images. Text enters from bottom with stagger via framer-motion."
+    },
+    "lead_capture_popup": {
+      "style": "Glassmorphism: backdrop-blur-2xl bg-[#0A0A0A]/80 border border-[#556B2F]/40 rounded-none.",
+      "behavior": "Triggers 5-10s after load. Reappears every 30s if not dismissed or submitted.",
+      "cta": "Primary solid #556B2F button."
+    },
+    "whatsapp_sticky": {
+      "style": "Fixed bottom-right. Circular dark olive button with cream icon. Include a subtle infinite ping/pulse ring animation in #556B2F.",
+      "z_index": "z-50"
+    },
+    "services_cards": {
+      "style": "Bento-style layout. 1px solid border, sharp corners or very subtle 4px radius. Large negative space inside.",
+      "hover": "Border changes to solid #556B2F, image inside scales up (scale-105)."
+    },
+    "work_gallery": {
+      "layout": "Masonry or asymmetrical grid.",
+      "interaction": "Hover zoom (scale-105). Clicking opens a fullscreen lightbox with blurred background."
+    },
+    "testimonials_marquee": {
+      "style": "Full-width marquee, 'react-fast-marquee'. Large outline text intertwined with standard review cards to create a 'Kinetic Texture'."
+    },
+    "navigation": {
+      "style": "Crystal Glassmorphism: sticky top-0 z-50 backdrop-blur-xl bg-[#0A0A0A]/70 border-b border-[#556B2F]/20."
+    }
+  },
+  "media": {
+    "hero_carousel": [
+      {
+        "url": "https://images.pexels.com/photos/6593432/pexels-photo-6593432.jpeg",
+        "description": "Tattoo artist focused in a modern studio"
+      },
+      {
+        "url": "https://images.pexels.com/photos/6593369/pexels-photo-6593369.jpeg",
+        "description": "Premium sterile studio overview"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1753259669126-660f46975072?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHwyfHx0YXR0b28lMjBhcnRpc3QlMjBzdHVkaW98ZW58MHx8fHwxNzc2Nzk2MjQ1fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Tattoo artist inking client arm"
+      }
+    ],
+    "services": {
+      "custom_tattoo": "https://images.unsplash.com/photo-1775135461973-363868f53771?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHwzfHx0YXR0b28lMjBhcnRpc3QlMjBzdHVkaW98ZW58MHx8fHwxNzc2Nzk2MjQ1fDA&ixlib=rb-4.1.0&q=85",
+      "piercing": "https://images.pexels.com/photos/7400019/pexels-photo-7400019.jpeg"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1646582679733-df910660e97f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwZmluZSUyMGxpbmUlMjB0YXR0b298ZW58MHx8fHwxNzc2Nzk2MjQ1fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1577357922830-eae2e1c7b4de?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwZmluZSUyMGxpbmUlMjB0YXR0b298ZW58MHx8fHwxNzc2Nzk2MjQ1fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.pexels.com/photos/4662164/pexels-photo-4662164.jpeg",
+      "https://images.pexels.com/photos/36587163/pexels-photo-36587163.jpeg"
+    ],
+    "artists": [
+      {
+        "url": "https://images.unsplash.com/photo-1753259789341-808371092e19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHwxfHx0YXR0b28lMjBhcnRpc3QlMjBzdHVkaW98ZW58MHx8fHwxNzc2Nzk2MjQ1fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Artist prepping"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1764886895051-14af1c33bb22?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxwaWVyY2luZyUyMGpld2Vscnl8ZW58MHx8fHwxNzc2Nzk2MjYyfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Piercer / Artist portrait"
+      }
+    ],
+    "social_proof": {
+      "happy_client": "https://images.unsplash.com/photo-1753260283382-a7b5d362af85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHw0fHx0YXR0b28lMjBhcnRpc3QlMjBzdHVkaW98ZW58MHx8fHwxNzc2Nzk2MjQ1fDA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "testing": {
+    "data_testid_rules": "All interactive elements (buttons, inputs, links, gallery items) MUST have a kebab-case data-testid attribute based on role (e.g., data-testid='hero-book-consultation-btn', data-testid='whatsapp-chat-btn')."
+  },
+  "instructions_to_main_agent": [
+    "Prioritize optical alignment and negative space. Do not cram elements together.",
+    "Do NOT use 'Inter', 'Roboto', or 'Open Sans'. Stick strictly to Clash Display / Outfit for headings and Satoshi / DM Sans for body text.",
+    "Follow the 'Tinted Grey' rule: The background is not pure #000000, it should be #0A0A0A.",
+    "Use framer-motion for page entrance and hover states. Ensure elements don't feel stiff.",
+    "The site should feel expensive and sterile. Rely on 1px solid dark olive borders (#556B2F/30) instead of blurry box-shadows.",
+    "For Shadcn components, override default padding and borders to match this rugged, sharp design system.",
+    "Ensure the popup has a delayed trigger and glassmorphism styling."
+  ]
+}
