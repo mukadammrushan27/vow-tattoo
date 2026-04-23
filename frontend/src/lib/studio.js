@@ -1,17 +1,18 @@
 // Central studio configuration - easily editable
 export const STUDIO = {
-  name: "NOIR INK",
+  name: "VOW TATTOO",
   tagline: "Tattoo & Piercing Atelier",
-  phone: "+1 (555) 018-2247",
-  whatsapp: "15550182247", // digits only for wa.me link
-  email: "hello@noirink.studio",
-  address: "218 Alder Lane, Arts District, Brooklyn, NY 11201",
+  logo: "/logo.png",
+  phone: "918850185558",
+  whatsapp: "918850185558", // digits only for wa.me link
+  email: "vow.tattoos05@gmail.com",
+  address: "Mira road(E),Ramdev park,Shop 1,Shiv Megha building,opp. rashmi ground,Near Lifeline Building",
   mapEmbed:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.0756890983893!2d-73.9567!3d40.6955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb4a9e9b1b1%3A0x0!2sBrooklyn!5e0!3m2!1sen!2sus!4v1700000000000",
-  instagram: "@noirink.studio",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.626804593883!2d72.8596637!3d19.2985652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1cb417d4785%3A0xc4e59f4937ed07f1!2sShiv%20Megha%20Building!5e0!3m2!1sen!2sin!4v1714123456789",
+  instagram: "vow.tattoostudio",
   years: 12,
   clients: 4200,
-  artists: 6,
+  artists: 2,
   rating: 4.9,
 };
 
@@ -63,10 +64,9 @@ export const gallery = [
 
 export const testimonials = [
   {
-    name: "Ava R.",
+    name: "Damein.D",
     quote:
-      "The calmest, cleanest studio I’ve ever been in. My fine-line piece looks like a drawing pulled from the page.",
-    piece: "Fine line — forearm",
+      "Amazing place.Pretty hygienic and clean.The artists do a pretty good job with their commitment to ink quality tattoos,Highly recomment whether its your 1st tattoo or your last: "Fine line — forearm",
   },
   {
     name: "Marcus D.",
@@ -96,8 +96,8 @@ export const testimonials = [
 
 export const artists = [
   {
-    slug: "rowan-vale",
-    name: "Rowan Vale",
+    slug: "manish-mondol",
+    name: "Manish Mondol",
     specialty: "Fine Line · Botanical",
     image:
       "https://images.unsplash.com/photo-1753259789341-808371092e19?crop=entropy&cs=srgb&fm=jpg&q=85",
