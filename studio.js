@@ -1,4 +1,3 @@
-// Central studio configuration
 window.studio = {
   name: "VOW TATTOO",
   tagline: "Tattoo & Piercing Atelier",
